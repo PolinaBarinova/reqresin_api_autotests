@@ -56,9 +56,4 @@ task reqresin_test(type: Test) {
     }
 }
 
-task delete_book_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("add_and_delete_book")
-    }
-}
 

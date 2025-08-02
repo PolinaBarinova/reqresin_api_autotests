@@ -28,7 +28,7 @@
 - Получение ошибки при запросе несуществующего пользователя
 - Удаление пользователя
 
-## <img alt="Jenkins" height="25" src="media/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/C35_Evgenia_Malysheva_testwork/)
+## <img alt="Jenkins" height="25" src="media/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/reqresin_api_autotest/)
 
 
 <p align="center">  
@@ -40,32 +40,20 @@
 
 При запуске сборки в **Jenkins** можно использовать следующие параметры:
 
-- `BROWSER` — браузер, **по умолчанию** `chrome`
-- `BROWSER_VERSION` — версия браузера, **по умолчанию** `128.0`
-- `BROWSER_SIZE` — размер окна браузера, **по умолчанию** `1920x1080`
-- `SELENOID_LOGIN` и `SELENOID_PASSWORD` — логин и пароль для доступа к Selenoid
-- `SELENOID_URL` — адрес сервера Selenoid
-- `TASK` — выбор тестов для запуска, **по умолчанию** `test`
+- `TASK` — выбор тестов для запуска, **по умолчанию** `reqresin_test`
 
 
 ## Команда для запуска из терминала
 Локальный запуск
 ```bash
-gradle clean test
+gradle clean reqresin_test
 ```
 Удаленный запуск через Jenkins:
 ```bash  
-clean
-${TASK}
-"-Dselenoid.url=${SELENOID_URL}"
--Dselenoid.login=${SELENOID_LOGIN}
--Dselenoid.password=${SELENOID_PASSWORD}
-"-Dbrowser=${BROWSER}"
-"-Dbrowser.version=${BROWSER_VERSION}"
-"-Dbrowser.size=${BROWSER_SIZE}"
+clean ${TASK}
 ```
 
-## <img alt="Allure" height="25" src="media/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure [Report](https://jenkins.autotests.cloud/job/C35_Evgenia_Malysheva_testwork/allure/)	</a>
+## <img alt="Allure" height="25" src="media/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure [Report](https://jenkins.autotests.cloud/job/reqresin_api_autotest/3/allure/)	</a>
 
 
 ## Основная страница отчёта
@@ -81,9 +69,4 @@ ____
 <img title="Allure Overview Dashboard" src="media/tgAllert.jpg" width="550">  
 </p>
 
-____
-## <img alt="Selenoid" height="25" src="media/Selenoid.svg" width="25"/></a> Примеры видео выполнения тестов на Selenoid
-____
-<p align="center">
-<img title="Selenoid Video" src="media/test_video.gif" width="550" height="350"  alt="video">   
-</p>
+
