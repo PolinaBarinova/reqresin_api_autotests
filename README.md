@@ -1,4 +1,4 @@
-<a href="https://reqres.in/"> <img src="media/logo.png" width="700" height="200"> 
+<a href="https://reqres.in/"> <img src="media/logo.png" width="800" height="200"> 
 <h2 >Проект по автоматизации API тестов для компании <a href="https://reqres.in/ "> REQRES </a></h2> 
 
 ## Содержание:
@@ -14,10 +14,18 @@
 
 <a id="tools"></a>
 ## Технологии и инструменты:
-
-|         Java                                                                                                      | IntelliJ  <br>  Idea                                                                                               | GitHub                                                                                                     | JUnit 5                                                                                                           | Gradle                                                                                                     | Rest Assured                                                                                                         | Jira                                                                                                                 | Allure <br> Report                                                                                                         |  Jenkins                                                                                                        |   Telegram
-|:----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <a href="https://www.java.com/"><img src="media/java-svgrepo-com.svg" width="50" height="50"  alt="Java"/></a>  | <a href="https://www.jetbrains.com/idea/"><img src="media/intellij-idea-svgrepo-com.svg" width="50" height="50"  alt="IDEA"/></a> | <a href="https://github.com/"><img src="media/github-badge-svgrepo-com.svg" width="50" height="50"  alt="Github"/></a> | <a href="https://junit.org/junit5/"><img src="media/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a> | <a href="https://gradle.org/"><img src="media/gradle-svgrepo-com.svg" width="50" height="50"  alt="Gradle"/></a> | <a href="https://rest-assured.io/"><img src="media/rest-assured.jpg" width="50" height="50"  alt="Rest Assured"/></a> | <a href="https://www.atlassian.com/software/jira"><img src="media/Jira.svg" width="50" height="50"  alt="Jira"/></a> | <a href="https://github.com/allure-framework"><img src="media/Allure.svg" width="50" height="50"  alt="Allure"/></a> |<a href="https://www.jenkins.io/"><img src="media/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> | <a href="https://web.telegram.org/"><img src="media/Telegram.svg" width="50" height="50" alt="Telegram"/></a> |<a href="https://qameta.io/"><img src="images\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO"/></a> |
+<p align="center">
+  <img width="8%" title="Java" src="media/java-svgrepo-com.svg">
+  <img width="8%" title="IntelliJ IDEA" src="media/intellij-idea-svgrepo-com.svg">
+  <img width="8%" title="GitHub" src="media/github-badge-svgrepo-com.svg">
+  <img width="8%" title="JUnit 5" src="media/Junit5.svg">
+  <img width="8%" title="Gradle" src="media/gradle-svgrepo-com.svg">
+  <img width="8%" title="Rest Assured" src="media/rest-assured.jpg">
+  <img width="8%" title="Jira" src="media/Jira.svg">
+  <img width="8%" title="Allure Report" src="media/Allure.svg">
+  <img width="8%" title="Jenkins" src="media/Jenkins.svg">
+  <img width="8%" title="Telegram" src="media/Telegram.svg">
+</p>
 
 <a id="cases"></a>
 ## Реализованные проверки:
