@@ -1,10 +1,10 @@
 package reqres.tests;
 
 import io.qameta.allure.Owner;
-import reqres.models.lombok.CreateAndUpdateUserBodyModel;
-import reqres.models.lombok.CreateResponseModel;
-import reqres.models.lombok.ListUsersResponseModel;
-import reqres.models.lombok.UpdateResponseModel;
+import reqres.models.CreateAndUpdateUserBodyModel;
+import reqres.models.CreateResponseModel;
+import reqres.models.ListUsersResponseModel;
+import reqres.models.UpdateResponseModel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
